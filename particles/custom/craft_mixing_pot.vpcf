@@ -1,0 +1,35 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{aafc65d8-7a5a-4e01-bd8d-3ac118422503} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 400
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/custom/craft_mixing_pot_component_1c.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/custom/craft_mixing_pot_component_3.vpcf"
+			m_bDisableChild = true
+		},
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_keeper_of_the_light/keeper_chakra_magic_ground.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_keeper_of_the_light/keeper_chakra_magic_cast_ring.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/custom/craft_mixing_pot_component_5.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_keeper_of_the_light/keeper_cast02.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/custom/craft_mixing_pot_component_2.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/custom/base_aoe_ring_center.vpcf"
+		},
+	]
+	m_nBehaviorVersion = 4
+}

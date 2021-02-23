@@ -1,0 +1,48 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{aafc65d8-7a5a-4e01-bd8d-3ac118422503} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 1
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/custom/neutral/firestorm_wave_a.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/custom/neutral/firestorm_wave_b.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/custom/neutral/firestorm_wave_c.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/custom/neutral/firestorm_wave_d.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/custom/neutral/firestorm_wave_e.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/custom/neutral/firestorm_wave_f.vpcf"
+			m_bDisableChild = true
+		},
+	]
+	m_flCullRadius = 300.000000
+	m_PreEmissionOperators = 
+	[
+		{
+			_class = "C_OP_StopAfterCPDuration"
+			m_flDuration = 5.000000
+			m_bDestroyImmediately = true
+		},
+		{
+			_class = "C_OP_SetSingleControlPointPosition"
+			m_nCP1 = 16
+			m_vecCP1Pos = 
+			[
+				0.000000,
+				0.000000,
+				500.000000,
+			]
+		},
+	]
+	m_nBehaviorVersion = 4
+}

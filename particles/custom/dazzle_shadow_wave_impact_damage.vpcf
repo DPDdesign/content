@@ -1,0 +1,28 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{aafc65d8-7a5a-4e01-bd8d-3ac118422503} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_ConstantColor = 
+	[
+		255,
+		200,
+		70,
+		255,
+	]
+	m_nMaxParticles = 4
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/custom/dazzle_shadow_wave_impact_damage_zap.vpcf"
+			m_bPreventNameBasedLookup = false
+		},
+		{
+			m_ChildRef = resource:"particles/custom/dazzle_shadow_wave_impact_damage_bits.vpcf"
+			m_bPreventNameBasedLookup = false
+		},
+		{
+			m_ChildRef = resource:"particles/custom/dazzle_shadow_wave_impact_damage_flash.vpcf"
+			m_bPreventNameBasedLookup = false
+		},
+	]
+	m_nBehaviorVersion = 9
+}

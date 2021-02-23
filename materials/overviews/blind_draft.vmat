@@ -1,0 +1,8 @@
+"Layer0"
+{
+	"shader"	"ui.vfx"
+	"F_TRANSLUCENT"	"0"
+	"g_tColor"	"materials/overviews/blind_draft_tga_befc27d2.vtex"
+	"RepresentativeTextureWidth"	"512"
+	"RepresentativeTextureHeight"	"512"
+}

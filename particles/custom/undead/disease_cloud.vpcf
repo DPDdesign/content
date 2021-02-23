@@ -1,0 +1,48 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{aafc65d8-7a5a-4e01-bd8d-3ac118422503} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 40
+	m_flCullRadius = 90.000000
+	m_flMaxDrawDistance = 2000.000000
+	m_flNoDrawTimeToGoToSleep = 2.000000
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/custom/undead/disease_cloud_radius.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/custom/undead/disease_cloud_body_decay.vpcf"
+			m_bDisableChild = true
+		},
+		{
+			m_ChildRef = resource:"particles/custom/undead/disease_cloud_body_decay_2.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/custom/undead/disease_cloud_body.vpcf"
+			m_bDisableChild = true
+		},
+		{
+			m_ChildRef = resource:"particles/custom/undead/disease_cloud_body_start.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/custom/undead/disease_cloud_radius_b.vpcf"
+			m_bDisableChild = true
+		},
+		{
+			m_ChildRef = resource:"particles/custom/undead/disease_cloud_radius_b.vpcf"
+			m_bDisableChild = true
+		},
+		{
+			m_ChildRef = resource:"particles/custom/undead/disease_cloud_radius_c.vpcf"
+			m_bDisableChild = true
+		},
+		{
+			m_ChildRef = resource:"particles/custom/undead/disease_cloud_radius_d.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/custom/undead/disease_cloud_radius_e.vpcf"
+		},
+	]
+	m_nBehaviorVersion = 4
+}

@@ -1,0 +1,121 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{aafc65d8-7a5a-4e01-bd8d-3ac118422503} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_Operators = 
+	[
+		{
+			_class = "C_OP_FadeAndKill"
+			m_flStartFadeOutTime = 0.800000
+			m_flStartAlpha = 0.000000
+		},
+		{
+			_class = "C_OP_InterpolateRadius"
+			m_flEndScale = 1.250000
+		},
+		{
+			_class = "C_OP_PositionLock"
+		},
+	]
+	m_Renderers = 
+	[
+		{
+			_class = "C_OP_RenderSprites"
+			m_nOrientationType = 2
+			m_nSequenceCombineMode = "2"
+			m_bAdditive = true
+			m_nRefractBlurType = "2"
+			m_hTexture = resource:"materials/aurapack/aura5.vtex"
+			VisibilityInputs = 
+			{
+				m_flInputMax = 0.000000
+			}
+		},
+	]
+	m_Initializers = 
+	[
+		{
+			_class = "C_INIT_RandomRadius"
+			m_flRadiusMin = 150.000000
+			m_flRadiusMax = 150.000000
+		},
+		{
+			_class = "C_INIT_RandomLifeTime"
+			m_fLifetimeMin = 1.000000
+			m_fLifetimeMax = 1.000000
+		},
+		{
+			_class = "C_INIT_RandomColor"
+			m_ColorMin = 
+			[
+				251,
+				59,
+				59,
+				255,
+			]
+			m_ColorMax = 
+			[
+				183,
+				0,
+				0,
+				255,
+			]
+			m_nTintBlendMode = "2"
+		},
+		{
+			_class = "C_INIT_CreateWithinSphere"
+		},
+		{
+			_class = "C_INIT_PositionOffset"
+			m_OffsetMin = 
+			[
+				0.000000,
+				0.000000,
+				5.000000,
+			]
+			m_OffsetMax = 
+			[
+				0.000000,
+				0.000000,
+				5.000000,
+			]
+		},
+		{
+			_class = "C_INIT_RemapCPtoScalar"
+			m_nCPInput = 1
+			m_flInputMin = 50.000000
+			m_flInputMax = 150.000000
+			m_flOutputMin = 50.000000
+			m_flOutputMax = 150.000000
+		},
+		{
+			_class = "C_INIT_RemapCPtoVector"
+			m_nCPInput = 15
+			m_nFieldOutput = "6"
+			m_vInputMax = 
+			[
+				255.000000,
+				255.000000,
+				255.000000,
+			]
+			m_vOutputMax = 
+			[
+				1.000000,
+				1.000000,
+				1.000000,
+			]
+		},
+	]
+	m_Emitters = 
+	[
+		{
+			_class = "C_OP_ContinuousEmitter"
+			m_flEmitRate = 
+			{
+				m_nType = "PF_TYPE_LITERAL"
+				m_flLiteralValue = 2.000000
+			}
+		},
+	]
+	m_nBehaviorVersion = 5
+	m_nFirstMultipleOverride_BackwardCompat = 4
+}
